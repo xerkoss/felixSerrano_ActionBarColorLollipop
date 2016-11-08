@@ -27,6 +27,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayShowHomeEnabled(true);
 
         ArrayAdapter<String> arrayAdapter =
                 new ArrayAdapter<String>(this,
